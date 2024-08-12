@@ -1,7 +1,7 @@
-FROM mcr.microsoft.com/dotnet/runtime-deps:6.0-jammy as build
+FROM mcr.microsoft.com/dotnet/runtime-deps:6.0-jammy AS build
 
 ARG TARGETOS=linux
-ARG TARGETARCH=x64
+ARG TARGETARCH=amd64
 ARG RUNNER_VERSION=2.319.0
 ARG RUNNER_CONTAINER_HOOKS_VERSION=0.6.1
 ARG DOCKER_VERSION=27.1.1
