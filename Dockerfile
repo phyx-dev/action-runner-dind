@@ -74,7 +74,7 @@ RUN set -eux \
     && apt update -y \
     && apt install -y --no-install-recommends sudo lsb-release gpg-agent software-properties-common \
 	&& add-apt-repository ppa:git-core/ppa \
-    && apt update -y
+    && apt update -y \
     && rm -rf /var/lib/apt/lists/*
 
 
