@@ -83,7 +83,6 @@ RUN set -eux \
     && apt-get install -y --no-install-recommends \
         build-essential \
         git \
-        docker.io \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
